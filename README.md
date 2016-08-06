@@ -4,7 +4,7 @@ QUe for iOS (Swift)
 QUe is a mobile conference app solution best suited for multitrack conferences.
 
 #Dependencies
-[Carthage](https://github.com/Carthage/Carthage)
+QUe-iOS-Swift uses [Alamofire](https://github.com/Alamofire/Alamofire) for networking purposes and [Realm](https://github.com/realm/realm-cocoa) as a database. Dependencies are managed using [Carthage](https://github.com/Carthage/Carthage).
 
 #Usage
 In order to get things started, this version uses data from the [Interspeech 2015](http://interspeech2015.org) conference.
