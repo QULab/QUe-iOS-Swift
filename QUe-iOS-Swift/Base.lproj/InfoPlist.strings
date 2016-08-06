@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  QUe
+
+  Created by Tilo Westermann on 19/02/16.
+  Copyright © 2016 Quality and Usability Lab, Telekom Innovation Laboratories, TU Berlin. All rights reserved.
+*/
+
+NSCalendarsUsageDescription = "Your favorite sessions and papers will be added to your calendar (optional).";

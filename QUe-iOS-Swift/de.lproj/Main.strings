@@ -1,0 +1,156 @@
+/* Class = "UILabel"; text = "-"; ObjectID = "0EV-Hg-Y4K"; */
+"0EV-Hg-Y4K.text" = "-";
+
+/* Class = "UITabBarItem"; title = "Authors"; ObjectID = "0jH-0U-DhZ"; */
+"0jH-0U-DhZ.title" = "Autoren";
+
+/* Class = "UILabel"; text = "Session title"; ObjectID = "2VT-1x-iHX"; */
+"2VT-1x-iHX.text" = "Session Titel";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "3JU-ox-QQV"; */
+"3JU-ox-QQV.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "7gP-Co-JaF"; */
+"7gP-Co-JaF.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Mon, 11:00 - 11:20"; ObjectID = "8FB-GP-9Ya"; */
+"8FB-GP-9Ya.text" = "Mon, 11:00 - 11:20";
+
+/* Class = "UILabel"; text = "Author"; ObjectID = "8Kk-7L-jee"; */
+"8Kk-7L-jee.text" = "Author";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "AOB-hg-vTD"; */
+"AOB-hg-vTD.text" = "-";
+
+/* Class = "UILabel"; text = "13:00"; ObjectID = "BBS-C7-7dm"; */
+"BBS-C7-7dm.text" = "13:00";
+
+/* Class = "UITabBarItem"; title = "Agenda"; ObjectID = "F45-yO-owF"; */
+"F45-yO-owF.title" = "Agenda";
+
+/* Class = "UIBarButtonItem"; title = "Now"; ObjectID = "FOx-o5-pIX"; */
+"FOx-o5-pIX.title" = "Jetzt";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "FXc-Tr-GgF"; */
+"FXc-Tr-GgF.text" = "Title";
+
+/* Class = "UILabel"; text = "Affiliation"; ObjectID = "Feu-Ma-bwo"; */
+"Feu-Ma-bwo.text" = "Affiliation";
+
+/* Class = "UILabel"; text = "15:00"; ObjectID = "G4T-6K-VMi"; */
+"G4T-6K-VMi.text" = "15:00";
+
+/* Class = "UILabel"; text = "First author, Second author, Third author"; ObjectID = "H6u-6x-tj1"; */
+"H6u-6x-tj1.text" = "First author, Second author, Third author";
+
+/* Class = "UITableViewController"; title = "Agenda"; ObjectID = "JAL-9B-AqO"; */
+"JAL-9B-AqO.title" = "Agenda";
+
+/* Class = "UILabel"; text = "11:00 - 13:00 Uhr"; ObjectID = "JcV-T4-mOn"; */
+"JcV-T4-mOn.text" = "11:00 - 13:00 Uhr";
+
+/* Class = "UILabel"; text = "13:00"; ObjectID = "Jex-cn-ZfQ"; */
+"Jex-cn-ZfQ.text" = "13:00";
+
+/* Class = "UILabel"; text = "Authors"; ObjectID = "LB7-Xi-3r7"; */
+"LB7-Xi-3r7.text" = "Autoren";
+
+/* Class = "UILabel"; text = "Session title"; ObjectID = "LZx-Nq-JPr"; */
+"LZx-Nq-JPr.text" = "Session title";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "Lc4-i4-iS0"; */
+"Lc4-i4-iS0.text" = "-";
+
+/* Class = "UILabel"; text = "15:00"; ObjectID = "Nsw-1F-XdV"; */
+"Nsw-1F-XdV.text" = "15:00";
+
+/* Class = "UILabel"; text = "X"; ObjectID = "OVJ-79-Foi"; */
+"OVJ-79-Foi.text" = "X";
+
+/* Class = "UILabel"; text = "Large Hall"; ObjectID = "OrD-ye-0JO"; */
+"OrD-ye-0JO.text" = "Large Hall";
+
+/* Class = "UILabel"; text = "13:00"; ObjectID = "R8p-34-S9g"; */
+"R8p-34-S9g.text" = "13:00";
+
+/* Class = "UILabel"; text = "Room A"; ObjectID = "ROU-UE-3AL"; */
+"ROU-UE-3AL.text" = "Room A";
+
+/* Class = "UILabel"; text = "Session title"; ObjectID = "RvY-wi-Dwe"; */
+"RvY-wi-Dwe.text" = "Session title";
+
+/* Class = "UILabel"; text = "Paper title"; ObjectID = "S34-D9-7ZU"; */
+"S34-D9-7ZU.text" = "Paper title";
+
+/* Class = "UILabel"; text = "Max Mustermann, Maria Mustermann"; ObjectID = "SS9-vV-8uM"; */
+"SS9-vV-8uM.text" = "Max Mustermann, Maria Mustermann";
+
+/* Class = "UILabel"; text = "13:00"; ObjectID = "VMQ-Oh-7RW"; */
+"VMQ-Oh-7RW.text" = "13:00";
+
+/* Class = "UILabel"; text = "Room A"; ObjectID = "Wix-ax-pR9"; */
+"Wix-ax-pR9.text" = "Room A";
+
+/* Class = "UILabel"; text = "Room A"; ObjectID = "Y0L-CW-QUV"; */
+"Y0L-CW-QUV.text" = "Raum A";
+
+/* Class = "UILabel"; text = "Oral session"; ObjectID = "bBF-m5-jGb"; */
+"bBF-m5-jGb.text" = "Oral session";
+
+/* Class = "UILabel"; text = "15:00"; ObjectID = "bFQ-Ld-uPu"; */
+"bFQ-Ld-uPu.text" = "15:00";
+
+/* Class = "UILabel"; text = "X"; ObjectID = "ciV-Cw-YfZ"; */
+"ciV-Cw-YfZ.text" = "X";
+
+/* Class = "UILabel"; text = "Room A"; ObjectID = "dR7-Wh-D5z"; */
+"dR7-Wh-D5z.text" = "Room A";
+
+/* Class = "UISegmentedControl"; dWt-Ij-hNm.segmentTitles[0] = "All"; ObjectID = "dWt-Ij-hNm"; */
+"dWt-Ij-hNm.segmentTitles[0]" = "Alles";
+
+/* Class = "UISegmentedControl"; dWt-Ij-hNm.segmentTitles[1] = "Favorites"; ObjectID = "dWt-Ij-hNm"; */
+"dWt-Ij-hNm.segmentTitles[1]" = "Favoriten";
+
+/* Class = "UILabel"; text = "Room A"; ObjectID = "ekt-SB-6VA"; */
+"ekt-SB-6VA.text" = "Room A";
+
+/* Class = "UILabel"; text = "Session title"; ObjectID = "gx0-pN-vMI"; */
+"gx0-pN-vMI.text" = "Session title";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "hwo-Lb-iXo"; */
+"hwo-Lb-iXo.text" = "-";
+
+/* Class = "UILabel"; text = "15:00"; ObjectID = "ioj-Ot-eck"; */
+"ioj-Ot-eck.text" = "15:00";
+
+/* Class = "UIBarButtonItem"; title = "Now"; ObjectID = "jxF-zy-PE4"; */
+"jxF-zy-PE4.title" = "Jetzt";
+
+/* Class = "UINavigationItem"; title = "Authors"; ObjectID = "khs-zS-9Sc"; */
+"khs-zS-9Sc.title" = "Autoren";
+
+/* Class = "UILabel"; text = "Paper title"; ObjectID = "nOe-fG-Di3"; */
+"nOe-fG-Di3.text" = "Paper title";
+
+/* Class = "UITableViewController"; title = "Authors"; ObjectID = "o2W-34-OJC"; */
+"o2W-34-OJC.title" = "Autoren";
+
+/* Class = "UINavigationItem"; title = "Agenda"; ObjectID = "oPg-S4-8y5"; */
+"oPg-S4-8y5.title" = "Agenda";
+
+/* Class = "UILabel"; text = "Session title"; ObjectID = "u0x-fK-fvR"; */
+"u0x-fK-fvR.text" = "Session title";
+
+/* Class = "UILabel"; text = "Monday"; ObjectID = "v15-HB-nDt"; */
+"v15-HB-nDt.text" = "Monday";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vgb-qn-L68"; */
+"vgb-qn-L68.text" = "Label";
+
+/* Class = "UILabel"; text = "X"; ObjectID = "xpb-o5-a9f"; */
+"xpb-o5-a9f.text" = "X";
+
+/* Class = "UITabBarItem"; title = "Maps"; ObjectID = "yqL-kL-5Kq"; */
+"yqL-kL-5Kq.title" = "Karten";
+

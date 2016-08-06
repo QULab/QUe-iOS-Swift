@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3915B01F1C7743850050A327 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3915B0211C7743850050A327 /* InfoPlist.strings */; };
+		391F5FB41BE7F7F000C0D473 /* QUESessionTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391F5FB31BE7F7F000C0D473 /* QUESessionTableViewHeaderView.swift */; };
+		392088251BCF8E5A0065108C /* QUEPaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392088241BCF8E5A0065108C /* QUEPaperViewController.swift */; };
+		3920DA5D1C557647007F37B0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3920DA5F1C557647007F37B0 /* Localizable.strings */; };
+		393D03421C494B2E0020123F /* QUEAuthorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393D03411C494B2E0020123F /* QUEAuthorsTableViewController.swift */; };
+		395288151BF620CF00FE9B04 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395288141BF620CF00FE9B04 /* Theme.swift */; };
+		396615F41C501D2B001549A1 /* QUEAuthorTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396615F31C501D2B001549A1 /* QUEAuthorTableViewHeaderView.swift */; };
+		396615F61C501DCC001549A1 /* QUEAuthorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396615F51C501DCC001549A1 /* QUEAuthorTableViewController.swift */; };
+		396615F81C50251E001549A1 /* QUEPaperTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396615F71C50251E001549A1 /* QUEPaperTableViewCell.swift */; };
+		3968D8B31C7620A500E28621 /* QUeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3968D8B21C7620A500E28621 /* QUeUITests.swift */; };
+		3968D8BB1C76210500E28621 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3968D8BA1C76210500E28621 /* SnapshotHelper.swift */; };
+		396D6E521BD8E23500651926 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396D6E4F1BD8E23500651926 /* Alamofire.framework */; };
+		396D6E581BD8E3CB00651926 /* Alamofire.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 396D6E561BD8E3CB00651926 /* Alamofire.framework.dSYM */; };
+		397001501C5376C800130123 /* QUEMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3970014F1C5376C800130123 /* QUEMapViewController.swift */; };
+		397001521C53984700130123 /* QUEMapPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397001511C53984700130123 /* QUEMapPageViewController.swift */; };
+		397C37B71BE921E900328356 /* QUEFavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397C37B61BE921E900328356 /* QUEFavoritesTableViewController.swift */; };
+		39810DA41C64E486002B8C9A /* QUEWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39810DA31C64E486002B8C9A /* QUEWebViewController.swift */; };
+		39847E201C54D38D008FA91A /* QUECalendarUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39847E1F1C54D38D008FA91A /* QUECalendarUtility.swift */; };
+		39975E551BDF61CD0051D1E2 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39975E531BDF61CD0051D1E2 /* Realm.framework */; };
+		39975E561BDF61CD0051D1E2 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39975E541BDF61CD0051D1E2 /* RealmSwift.framework */; };
+		399B35D41BA5B23E00255B53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399B35D31BA5B23E00255B53 /* AppDelegate.swift */; };
+		399B35DB1BA5B23E00255B53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399B35D91BA5B23E00255B53 /* Main.storyboard */; };
+		399B35DD1BA5B23E00255B53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399B35DC1BA5B23E00255B53 /* Images.xcassets */; };
+		399B35E01BA5B23E00255B53 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 399B35DE1BA5B23E00255B53 /* LaunchScreen.xib */; };
+		399B35EC1BA5B23E00255B53 /* QUe_iOS_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399B35EB1BA5B23E00255B53 /* QUe_iOS_SwiftTests.swift */; };
+		399B35F71BA5B32A00255B53 /* QUEAgendaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399B35F61BA5B32A00255B53 /* QUEAgendaTableViewController.swift */; };
+		399B35FA1BA5C56800255B53 /* QUEAgendaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399B35F91BA5C56800255B53 /* QUEAgendaTableViewCell.swift */; };
+		399B36021BA5ED7400255B53 /* QUEModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399B36011BA5ED7400255B53 /* QUEModels.swift */; };
+		39B475C11BE6224A0082FDA1 /* QUEAgendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B475C01BE6224A0082FDA1 /* QUEAgendaViewController.swift */; };
+		39B475C31BE67B6A0082FDA1 /* QUEAgendaSearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B475C21BE67B6A0082FDA1 /* QUEAgendaSearchResultsViewController.swift */; };
+		39B475C71BE75EB20082FDA1 /* QUEAgendaNavigatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B475C61BE75EB20082FDA1 /* QUEAgendaNavigatorView.swift */; };
+		39C9CDB11BC861D000FB3C35 /* QUESessionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9CDB01BC861D000FB3C35 /* QUESessionTableViewController.swift */; };
+		39EFBF751BA71B8200C9C61F /* QUEDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EFBF741BA71B8200C9C61F /* QUEDatasource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3968D8B51C7620A500E28621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 399B35C61BA5B23E00255B53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 399B35CD1BA5B23E00255B53;
+			remoteInfo = "DAGA 2016";
+		};
+		399B35E61BA5B23E00255B53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 399B35C61BA5B23E00255B53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 399B35CD1BA5B23E00255B53;
+			remoteInfo = "QUe-iOS-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		396D6E551BD8E39400651926 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				396D6E581BD8E3CB00651926 /* Alamofire.framework.dSYM in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3915B0201C7743850050A327 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3915B0221C7743900050A327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		391F5FB31BE7F7F000C0D473 /* QUESessionTableViewHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QUESessionTableViewHeaderView.swift; path = Views/QUESessionTableViewHeaderView.swift; sourceTree = "<group>"; };
+		392088241BCF8E5A0065108C /* QUEPaperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QUEPaperViewController.swift; path = Controllers/QUEPaperViewController.swift; sourceTree = "<group>"; };
+		3920DA5E1C557647007F37B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3920DA601C557696007F37B0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3920DA611C557696007F37B0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		3920DA621C557696007F37B0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		393D03411C494B2E0020123F /* QUEAuthorsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QUEAuthorsTableViewController.swift; path = Controllers/QUEAuthorsTableViewController.swift; sourceTree = "<group>"; };
+		395288141BF620CF00FE9B04 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		396615F31C501D2B001549A1 /* QUEAuthorTableViewHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QUEAuthorTableViewHeaderView.swift; path = Views/QUEAuthorTableViewHeaderView.swift; sourceTree = "<group>"; };
+		396615F51C501DCC001549A1 /* QUEAuthorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QUEAuthorTableViewController.swift; path = Controllers/QUEAuthorTableViewController.swift; sourceTree = "<group>"; };
+		396615F71C50251E001549A1 /* QUEPaperTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QUEPaperTableViewCell.swift; path = Views/QUEPaperTableViewCell.swift; sourceTree = "<group>"; };
+		3968D8B01C7620A500E28621 /* QUe.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QUe.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3968D8B21C7620A500E28621 /* QUeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QUeUITests.swift; sourceTree = "<group>"; };
+		3968D8B41C7620A500E28621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3968D8BA1C76210500E28621 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
+		396D6E4F1BD8E23500651926 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		396D6E561BD8E3CB00651926 /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/iOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
+		3970014F1C5376C800130123 /* QUEMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QUEMapViewController.swift; path = Controllers/QUEMapViewController.swift; sourceTree = "<group>"; };
+		397001511C53984700130123 /* QUEMapPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QUEMapPageViewController.swift; path = Controllers/QUEMapPageViewController.swift; sourceTree = "<group>"; };
+		397C37B61BE921E900328356 /* QUEFavoritesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QUEFavoritesTableViewController.swift; path = Controllers/QUEFavoritesTableViewController.swift; sourceTree = "<group>"; };
+		39810DA31C64E486002B8C9A /* QUEWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QUEWebViewController.swift; path = Controllers/QUEWebViewController.swift; sourceTree = "<group>"; };
+		39847E1F1C54D38D008FA91A /* QUECalendarUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUECalendarUtility.swift; sourceTree = "<group>"; };
+		39975E531BDF61CD0051D1E2 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		39975E541BDF61CD0051D1E2 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		399B35CE1BA5B23E00255B53 /* QUe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QUe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		399B35D21BA5B23E00255B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		399B35D31BA5B23E00255B53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		399B35DA1BA5B23E00255B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		399B35DC1BA5B23E00255B53 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		399B35DF1BA5B23E00255B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		399B35E51BA5B23E00255B53 /* QUe.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QUe.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		399B35EA1BA5B23E00255B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		399B35EB1BA5B23E00255B53 /* QUe_iOS_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QUe_iOS_SwiftTests.swift; sourceTree = "<group>"; };
+		399B35F61BA5B32A00255B53 /* QUEAgendaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QUEAgendaTableViewController.swift; path = Controllers/QUEAgendaTableViewController.swift; sourceTree = "<group>"; };
+		399B35F91BA5C56800255B53 /* QUEAgendaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QUEAgendaTableViewCell.swift; path = Views/QUEAgendaTableViewCell.swift; sourceTree = "<group>"; };
+		399B36011BA5ED7400255B53 /* QUEModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QUEModels.swift; path = Database/QUEModels.swift; sourceTree = "<group>"; };
+		39B475C01BE6224A0082FDA1 /* QUEAgendaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QUEAgendaViewController.swift; path = Controllers/QUEAgendaViewController.swift; sourceTree = "<group>"; };
+		39B475C21BE67B6A0082FDA1 /* QUEAgendaSearchResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QUEAgendaSearchResultsViewController.swift; path = Controllers/QUEAgendaSearchResultsViewController.swift; sourceTree = "<group>"; };
+		39B475C61BE75EB20082FDA1 /* QUEAgendaNavigatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QUEAgendaNavigatorView.swift; path = Views/QUEAgendaNavigatorView.swift; sourceTree = "<group>"; };
+		39C9CDB01BC861D000FB3C35 /* QUESessionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QUESessionTableViewController.swift; path = Controllers/QUESessionTableViewController.swift; sourceTree = "<group>"; };
+		39EFBF741BA71B8200C9C61F /* QUEDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUEDatasource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3968D8AD1C7620A500E28621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		399B35CB1BA5B23E00255B53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396D6E521BD8E23500651926 /* Alamofire.framework in Frameworks */,
+				39975E551BDF61CD0051D1E2 /* Realm.framework in Frameworks */,
+				39975E561BDF61CD0051D1E2 /* RealmSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		399B35E21BA5B23E00255B53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3968D8B11C7620A500E28621 /* QUeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3968D8BA1C76210500E28621 /* SnapshotHelper.swift */,
+				3968D8B21C7620A500E28621 /* QUeUITests.swift */,
+				3968D8B41C7620A500E28621 /* Info.plist */,
+			);
+			name = QUeUITests;
+			path = "DAGA 2016UITests";
+			sourceTree = "<group>";
+		};
+		399B35C51BA5B23E00255B53 = {
+			isa = PBXGroup;
+			children = (
+				39975E531BDF61CD0051D1E2 /* Realm.framework */,
+				39975E541BDF61CD0051D1E2 /* RealmSwift.framework */,
+				396D6E561BD8E3CB00651926 /* Alamofire.framework.dSYM */,
+				396D6E4F1BD8E23500651926 /* Alamofire.framework */,
+				399B35D01BA5B23E00255B53 /* QUe-iOS-Swift */,
+				399B35E81BA5B23E00255B53 /* QUe-iOS-SwiftTests */,
+				3968D8B11C7620A500E28621 /* QUeUITests */,
+				399B35CF1BA5B23E00255B53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		399B35CF1BA5B23E00255B53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				399B35CE1BA5B23E00255B53 /* QUe.app */,
+				399B35E51BA5B23E00255B53 /* QUe.xctest */,
+				3968D8B01C7620A500E28621 /* QUe.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		399B35D01BA5B23E00255B53 /* QUe-iOS-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				399B36001BA5ED5E00255B53 /* Models */,
+				399B35F81BA5C54200255B53 /* Views */,
+				399B35F51BA5B2D100255B53 /* Controllers */,
+				399B35D31BA5B23E00255B53 /* AppDelegate.swift */,
+				395288141BF620CF00FE9B04 /* Theme.swift */,
+				399B35D91BA5B23E00255B53 /* Main.storyboard */,
+				399B35DC1BA5B23E00255B53 /* Images.xcassets */,
+				399B35DE1BA5B23E00255B53 /* LaunchScreen.xib */,
+				399B35D11BA5B23E00255B53 /* Supporting Files */,
+				39EFBF741BA71B8200C9C61F /* QUEDatasource.swift */,
+				39847E1F1C54D38D008FA91A /* QUECalendarUtility.swift */,
+				3920DA5F1C557647007F37B0 /* Localizable.strings */,
+				3915B0211C7743850050A327 /* InfoPlist.strings */,
+			);
+			path = "QUe-iOS-Swift";
+			sourceTree = "<group>";
+		};
+		399B35D11BA5B23E00255B53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				399B35D21BA5B23E00255B53 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		399B35E81BA5B23E00255B53 /* QUe-iOS-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				399B35EB1BA5B23E00255B53 /* QUe_iOS_SwiftTests.swift */,
+				399B35E91BA5B23E00255B53 /* Supporting Files */,
+			);
+			path = "QUe-iOS-SwiftTests";
+			sourceTree = "<group>";
+		};
+		399B35E91BA5B23E00255B53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				399B35EA1BA5B23E00255B53 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		399B35F51BA5B2D100255B53 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				39B475C01BE6224A0082FDA1 /* QUEAgendaViewController.swift */,
+				39B475C21BE67B6A0082FDA1 /* QUEAgendaSearchResultsViewController.swift */,
+				399B35F61BA5B32A00255B53 /* QUEAgendaTableViewController.swift */,
+				39C9CDB01BC861D000FB3C35 /* QUESessionTableViewController.swift */,
+				392088241BCF8E5A0065108C /* QUEPaperViewController.swift */,
+				397C37B61BE921E900328356 /* QUEFavoritesTableViewController.swift */,
+				393D03411C494B2E0020123F /* QUEAuthorsTableViewController.swift */,
+				396615F51C501DCC001549A1 /* QUEAuthorTableViewController.swift */,
+				3970014F1C5376C800130123 /* QUEMapViewController.swift */,
+				397001511C53984700130123 /* QUEMapPageViewController.swift */,
+				39810DA31C64E486002B8C9A /* QUEWebViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		399B35F81BA5C54200255B53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				396615F31C501D2B001549A1 /* QUEAuthorTableViewHeaderView.swift */,
+				399B35F91BA5C56800255B53 /* QUEAgendaTableViewCell.swift */,
+				39B475C61BE75EB20082FDA1 /* QUEAgendaNavigatorView.swift */,
+				391F5FB31BE7F7F000C0D473 /* QUESessionTableViewHeaderView.swift */,
+				396615F71C50251E001549A1 /* QUEPaperTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		399B36001BA5ED5E00255B53 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				399B36011BA5ED7400255B53 /* QUEModels.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3968D8AF1C7620A500E28621 /* QUeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3968D8B71C7620A500E28621 /* Build configuration list for PBXNativeTarget "QUeUITests" */;
+			buildPhases = (
+				3968D8AC1C7620A500E28621 /* Sources */,
+				3968D8AD1C7620A500E28621 /* Frameworks */,
+				3968D8AE1C7620A500E28621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3968D8B61C7620A500E28621 /* PBXTargetDependency */,
+			);
+			name = QUeUITests;
+			productName = "DAGA 2016UITests";
+			productReference = 3968D8B01C7620A500E28621 /* QUe.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		399B35CD1BA5B23E00255B53 /* QUe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 399B35EF1BA5B23E00255B53 /* Build configuration list for PBXNativeTarget "QUe" */;
+			buildPhases = (
+				399B35CA1BA5B23E00255B53 /* Sources */,
+				399B35CB1BA5B23E00255B53 /* Frameworks */,
+				399B35CC1BA5B23E00255B53 /* Resources */,
+				399B35FD1BA5E16200255B53 /* ShellScript */,
+				396D6E551BD8E39400651926 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QUe;
+			productName = "QUe-iOS-Swift";
+			productReference = 399B35CE1BA5B23E00255B53 /* QUe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		399B35E41BA5B23E00255B53 /* QUeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 399B35F21BA5B23E00255B53 /* Build configuration list for PBXNativeTarget "QUeTests" */;
+			buildPhases = (
+				399B35E11BA5B23E00255B53 /* Sources */,
+				399B35E21BA5B23E00255B53 /* Frameworks */,
+				399B35E31BA5B23E00255B53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				399B35E71BA5B23E00255B53 /* PBXTargetDependency */,
+			);
+			name = QUeTests;
+			productName = "QUe-iOS-SwiftTests";
+			productReference = 399B35E51BA5B23E00255B53 /* QUe.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		399B35C61BA5B23E00255B53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Quality and Usability Lab, Telekom Innovation Laboratories, TU Berlin";
+				TargetAttributes = {
+					3968D8AF1C7620A500E28621 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 399B35CD1BA5B23E00255B53;
+					};
+					399B35CD1BA5B23E00255B53 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = TCNFFABBAW;
+					};
+					399B35E41BA5B23E00255B53 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 399B35CD1BA5B23E00255B53;
+					};
+				};
+			};
+			buildConfigurationList = 399B35C91BA5B23E00255B53 /* Build configuration list for PBXProject "QUe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = 399B35C51BA5B23E00255B53;
+			productRefGroup = 399B35CF1BA5B23E00255B53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				399B35CD1BA5B23E00255B53 /* QUe */,
+				399B35E41BA5B23E00255B53 /* QUeTests */,
+				3968D8AF1C7620A500E28621 /* QUeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3968D8AE1C7620A500E28621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		399B35CC1BA5B23E00255B53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3915B01F1C7743850050A327 /* InfoPlist.strings in Resources */,
+				3920DA5D1C557647007F37B0 /* Localizable.strings in Resources */,
+				399B35DB1BA5B23E00255B53 /* Main.storyboard in Resources */,
+				399B35E01BA5B23E00255B53 /* LaunchScreen.xib in Resources */,
+				399B35DD1BA5B23E00255B53 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		399B35E31BA5B23E00255B53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		399B35FD1BA5E16200255B53 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3968D8AC1C7620A500E28621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3968D8B31C7620A500E28621 /* QUeUITests.swift in Sources */,
+				3968D8BB1C76210500E28621 /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		399B35CA1BA5B23E00255B53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391F5FB41BE7F7F000C0D473 /* QUESessionTableViewHeaderView.swift in Sources */,
+				397C37B71BE921E900328356 /* QUEFavoritesTableViewController.swift in Sources */,
+				399B35F71BA5B32A00255B53 /* QUEAgendaTableViewController.swift in Sources */,
+				39B475C31BE67B6A0082FDA1 /* QUEAgendaSearchResultsViewController.swift in Sources */,
+				392088251BCF8E5A0065108C /* QUEPaperViewController.swift in Sources */,
+				395288151BF620CF00FE9B04 /* Theme.swift in Sources */,
+				39B475C11BE6224A0082FDA1 /* QUEAgendaViewController.swift in Sources */,
+				399B36021BA5ED7400255B53 /* QUEModels.swift in Sources */,
+				39C9CDB11BC861D000FB3C35 /* QUESessionTableViewController.swift in Sources */,
+				399B35FA1BA5C56800255B53 /* QUEAgendaTableViewCell.swift in Sources */,
+				396615F61C501DCC001549A1 /* QUEAuthorTableViewController.swift in Sources */,
+				39EFBF751BA71B8200C9C61F /* QUEDatasource.swift in Sources */,
+				396615F81C50251E001549A1 /* QUEPaperTableViewCell.swift in Sources */,
+				393D03421C494B2E0020123F /* QUEAuthorsTableViewController.swift in Sources */,
+				396615F41C501D2B001549A1 /* QUEAuthorTableViewHeaderView.swift in Sources */,
+				397001521C53984700130123 /* QUEMapPageViewController.swift in Sources */,
+				39847E201C54D38D008FA91A /* QUECalendarUtility.swift in Sources */,
+				39B475C71BE75EB20082FDA1 /* QUEAgendaNavigatorView.swift in Sources */,
+				399B35D41BA5B23E00255B53 /* AppDelegate.swift in Sources */,
+				397001501C5376C800130123 /* QUEMapViewController.swift in Sources */,
+				39810DA41C64E486002B8C9A /* QUEWebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		399B35E11BA5B23E00255B53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399B35EC1BA5B23E00255B53 /* QUe_iOS_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3968D8B61C7620A500E28621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 399B35CD1BA5B23E00255B53 /* QUe */;
+			targetProxy = 3968D8B51C7620A500E28621 /* PBXContainerItemProxy */;
+		};
+		399B35E71BA5B23E00255B53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 399B35CD1BA5B23E00255B53 /* QUe */;
+			targetProxy = 399B35E61BA5B23E00255B53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3915B0211C7743850050A327 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3915B0201C7743850050A327 /* de */,
+				3915B0221C7743900050A327 /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3920DA5F1C557647007F37B0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3920DA5E1C557647007F37B0 /* Base */,
+				3920DA601C557696007F37B0 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		399B35D91BA5B23E00255B53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				399B35DA1BA5B23E00255B53 /* Base */,
+				3920DA611C557696007F37B0 /* de */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		399B35DE1BA5B23E00255B53 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				399B35DF1BA5B23E00255B53 /* Base */,
+				3920DA621C557696007F37B0 /* de */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3968D8B81C7620A500E28621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = QUeUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.qu.DAGA-2016UITests";
+				PRODUCT_NAME = QUe;
+				TEST_TARGET_NAME = "DAGA 2016";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3968D8B91C7620A500E28621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QUeUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.qu.DAGA-2016UITests";
+				PRODUCT_NAME = QUe;
+				TEST_TARGET_NAME = "DAGA 2016";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		399B35ED1BA5B23E00255B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		399B35EE1BA5B23E00255B53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		399B35F01BA5B23E00255B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "QUe-iOS-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.qu.que;
+				PRODUCT_NAME = QUe;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		399B35F11BA5B23E00255B53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "QUe-iOS-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.qu.que;
+				PRODUCT_NAME = QUe;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		399B35F31BA5B23E00255B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QUe-iOS-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.qu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = QUe;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QUe.app/QUe";
+			};
+			name = Debug;
+		};
+		399B35F41BA5B23E00255B53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "QUe-iOS-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.qu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = QUe;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QUe.app/QUe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3968D8B71C7620A500E28621 /* Build configuration list for PBXNativeTarget "QUeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3968D8B81C7620A500E28621 /* Debug */,
+				3968D8B91C7620A500E28621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		399B35C91BA5B23E00255B53 /* Build configuration list for PBXProject "QUe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399B35ED1BA5B23E00255B53 /* Debug */,
+				399B35EE1BA5B23E00255B53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		399B35EF1BA5B23E00255B53 /* Build configuration list for PBXNativeTarget "QUe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399B35F01BA5B23E00255B53 /* Debug */,
+				399B35F11BA5B23E00255B53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		399B35F21BA5B23E00255B53 /* Build configuration list for PBXNativeTarget "QUeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				399B35F31BA5B23E00255B53 /* Debug */,
+				399B35F41BA5B23E00255B53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 399B35C61BA5B23E00255B53 /* Project object */;
+}
